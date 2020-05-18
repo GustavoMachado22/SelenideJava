@@ -13,8 +13,8 @@ public class LoginTests {
         isChrome();
         open("http://ninjaplus-web:5000/");
 
-        $("input[name=email]").setValue("gustavo-hmsjr@hotmail.com");
-        $("#passId").setValue("2104685");
+        $("input[name=email]").setValue("gustavo@hotmail.com");
+        $("#passId").setValue("123456");
         $(byText("Entrar")).click();
         $(".user .info span").shouldHave(text("Gustavo"));
 
