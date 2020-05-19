@@ -1,3 +1,5 @@
+package tests;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +20,7 @@ public class LoginTests2 {
     public int timeout = 20;
 
     @BeforeTest
-    public void startBrowser(){
+    public void startBrowser() {
         browser = new ChromeDriver();
         browser.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 
@@ -31,18 +33,18 @@ public class LoginTests2 {
     }
 
     @AfterTest
-    public void closeBrowser(){
+    public void closeBrowser() {
         browser.close();
 
     }
 
     @Test
-    public void shouldLoggedUser(){
+    public void shouldLoggedUser() {
         browser.findElement(By.id("emailId")).sendKeys("gustavo@hotmail.com");
         browser.findElement(By.id("passId")).sendKeys("123456");
         browser.findElement(By.id("login")).click();
-        
-        String userInfo =".user .info span";
+
+        String userInfo = ".user .info span";
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(userInfo)));
         WebElement userName = browser.findElement(By.cssSelector(userInfo));
