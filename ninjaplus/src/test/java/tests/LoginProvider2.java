@@ -1,16 +1,13 @@
 package tests;
 
-import com.codeborne.selenide.Configuration;
-import org.testng.annotations.*;
-import pages.LoginPage;
-import pages.SideBar;
+import common.BaseTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.text;
 
-public class LoginProvider2 {
-
-    protected static LoginPage login;
-    protected static SideBar side;
+public class LoginProvider2 extends BaseTest {
 
     @DataProvider(name = "login-alerts")
     public Object[][] loginProvider() {
@@ -18,17 +15,8 @@ public class LoginProvider2 {
                 {"gustavo@hotmail.com", "1234567", "Usuário e/ou senha inválidos"},
                 {"ghm@hotmail.com", "123456", "Usuário e/ou senha inválidos"},
                 {"", "123456", "Opps. Cadê o email?"},
-                {"gustavo@hotmail.com", "", "Opps. Cadê a senha?"}
+                {"gustavo@hotmail.com", "", "Opps. Cadê a senha"}
         };
-    }
-
-    @BeforeMethod
-    public void start() {
-        Configuration.browser = "chrome";
-        Configuration.baseUrl = "http://ninjaplus-web:5000";
-
-        login = new LoginPage();
-        side = new SideBar();
     }
 
     @Test
