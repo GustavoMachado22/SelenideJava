@@ -13,47 +13,47 @@ No curso construimos scripts de testes automatizados em um sistema Web para cada
 # Ementa
 
 ### Introdução
-- •	Boas Vindas
+- Boas Vindas
 
-## Ambiente
+### Ambiente
 
-- •	Instalando o JDK 8
-- •	Instalando o Docker
-•	Subindo o Ambiente com Docker Compose
-•	IntelliJ IDEA Community
-•	Criando um Projeto com TestNG
+- Instalando o JDK 8
+- Instalando o Docker
+- Subindo o Ambiente com Docker Compose
+- IntelliJ IDEA Community
+- Criando um Projeto com TestNG
 
-## Introdução Automação 
+### Introdução Automação 
 
-•	Hello Selenide
-•	Definição dos Pacotes do Maven
-•	Selenide X Selenium WebDriver
-•	Meu primeiro teste com Selenide
-•	Refatorando com BDD Style (Sem Cucumber)
-•	Automatizando novos cenários
+-	Hello Selenide
+-	Definição dos Pacotes do Maven
+-	Selenide X Selenium WebDriver
+-	Meu primeiro teste com Selenide
+-	Refatorando com BDD Style (Sem Cucumber)
+-	Automatizando novos cenários
 
-## Avançando na Automação
+### Avançando na Automação
 
-•	Timeouts do Selenide
-•	Boas práticas de automação com Page Object
-•	Vamos melhorar o código de testes com reuso e herança
-•	Testes dirigidos por dados (DDT)
-•	Cadastro de filme, preenchendo novos campos
-•	Selecionando opções no Dropdown list
-•	Otimizando o gerenciamento de massa de testes em código
-•	Manipulando componente de tags com arrays
-•	Imagens também são massa de testes
-•	Upload de arquivos
-•	Deu ruim na Massa de teste! SQN
-•	Inserindo e validando um novo filme
-•	Cenários de buscas e massa de testes controladas
-•	MutiBrowser com Firefox e Chrome
-•	Reports XML para CI
-•	Reports Ricos com Allure
-•	Encerramento do curso
+-	Timeouts do Selenide
+-	Boas práticas de automação com Page Object
+-	Vamos melhorar o código de testes com reuso e herança
+-	Testes dirigidos por dados (DDT)
+-	Cadastro de filme, preenchendo novos campos
+-	Selecionando opções no Dropdown list
+-	Otimizando o gerenciamento de massa de testes em código
+-	Manipulando componente de tags com arrays
+-	Imagens também são massa de testes
+-	Upload de arquivos
+-	Deu ruim na Massa de teste! SQN
+-	Inserindo e validando um novo filme
+-	Cenários de buscas e massa de testes controladas
+-	MutiBrowser com Firefox e Chrome
+-	Reports XML para CI
+-	Reports Ricos com Allure
+-	Encerramento do curso
 
 
-## 20 horas de aula
+### 20 horas de aula
 
 
 ## Site do curso
@@ -62,10 +62,27 @@ https://play.qaninja.io/cursos/selenide
 ```
 
 
-## Construído com
+## Recursos utilizados
 
-- [NodeJS](https://nodejs.org/en/) - Backend
-- [ReactJS](https://pt-br.reactjs.org/) - Frontend
-- [React Native](https://facebook.github.io/react-native/) - Mobile
-- [MongoDB](https://www.mongodb.com/) - Banco de dados não relacional
 
+- [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) - Java
+- [Maven](https://mvnrepository.com/) - Repositório 
+- [Docker](https://www.docker.com/) - Contêineres
+
+
+## Sobre o instrutor
+
+<table>
+  <tr>
+    <td align="center">
+      <a href=https://www.linkedin.com/in/papitoio/">
+        <img src="https://www.linkedin.com/in/papitoio/detail/photo/" width="100px;" alt="Fernando Papito"/>
+        <br />
+        <sub>
+          <b>Glauco Nascimento</b>
+        </sub>
+       </a>
+       <br />
+    </td>
+  </tr>
+</table>
