@@ -1,6 +1,5 @@
 # SelenideJava
-
-## Curso de automação java com Selenide
+Curso de automação java com Selenide
 
 ## Sobre o curso
 
@@ -13,13 +12,13 @@ No curso construimos scripts de testes automatizados em um sistema Web para cada
 
 # Ementa
 
-## Introdução
-•	Boas Vindas
+### Introdução
+- •	Boas Vindas
 
 ## Ambiente
 
-•	Instalando o JDK 8
-•	Instalando o Docker
+- •	Instalando o JDK 8
+- •	Instalando o Docker
 •	Subindo o Ambiente com Docker Compose
 •	IntelliJ IDEA Community
 •	Criando um Projeto com TestNG
