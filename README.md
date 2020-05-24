@@ -82,7 +82,7 @@ Fernando Papito é apaixonado por Automação. É um profissional com grande viv
         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEAy2Z68TD12Q/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=AUNE6MTmk4UCCC5tp9r37vdi2FxwC0Oie9VSOTetHtI"/>
         <br />
         <sub>
-          <b>Fernando Papito</b>
+          <b>Fernando Papito - Linkedin</b>
         </sub>
        </a>
        <br />
@@ -90,6 +90,3 @@ Fernando Papito é apaixonado por Automação. É um profissional com grande viv
   </tr>
 </table>
 
-
-
-- [Linkedin](https://www.linkedin.com/in/papitoio/) 
