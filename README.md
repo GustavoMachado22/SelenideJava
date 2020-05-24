@@ -72,17 +72,6 @@ https://play.qaninja.io/cursos/selenide
 
 ## Sobre o instrutor
 
-<table>
-  <tr>
-    <td align="center">
-      <a href=https://www.linkedin.com/in/papitoio/">
-        <img src="https://www.linkedin.com/in/papitoio/detail/photo/" width="100px;" alt="Fernando Papito"/>
-        <br />
-        <sub>
-          <b>Glauco Nascimento</b>
-        </sub>
-       </a>
-       <br />
-    </td>
-  </tr>
-</table>
+Fernando Papito é apaixonado por Automação. É um profissional com grande vivência de mercado, possui 17 anos de experiência em qualidade de software, tendo atuado em grandes empresas nacionais e multinacionais. Desenvolveu carreira atuando como QA e Dev. Trabalhou durante anos na área financeira, bancária, marketing, e-commerce e de BI. É especialista em automação de testes, devops, performance e segurança. Fundou a QA Ninja e QAX.
+
+- [Linkedin](https://www.linkedin.com/in/papitoio/) 
