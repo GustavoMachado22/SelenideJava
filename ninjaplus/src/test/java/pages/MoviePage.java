@@ -1,5 +1,6 @@
 package pages;
 
+import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import models.MovieModel;
 import org.openqa.selenium.Keys;
@@ -17,6 +18,13 @@ public class MoviePage {
         return this;
     }
 
+    public MoviePage search(String value) {
+        $("input[placeholder^=Pesquisar]").setValue(value);
+        $("#search-movie").click();
+        return this;
+    }
+
+
     public MoviePage create(MovieModel movie) {
         $("input[name=title]").setValue(movie.title);
         this.selectStatus(movie.status);
@@ -26,7 +34,14 @@ public class MoviePage {
         $("textarea[name=overview]").setValue(movie.plot);
         this.upload(movie.cover);
 
+        $("#create-movie").click();
+
         return this;
+    }
+
+    public ElementsCollection items(){
+        return $$("table tbody tr");
+
     }
 
     private void upload(File cover) {
@@ -50,4 +65,5 @@ public class MoviePage {
         $("input[placeholder=Status]").click();
         $$("ul li span").findBy(text(status)).click();
     }
+
 }

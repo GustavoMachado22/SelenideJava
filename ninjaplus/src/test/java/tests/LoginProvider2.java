@@ -1,11 +1,10 @@
 package tests;
 
+import static com.codeborne.selenide.Condition.text;
 import common.BaseTest;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import static com.codeborne.selenide.Condition.text;
 
 public class LoginProvider2 extends BaseTest {
 
@@ -29,6 +28,7 @@ public class LoginProvider2 extends BaseTest {
         side.loggerUser().shouldHave(text("Gustavo"));
 
     }
+
 
     // DDT (DATA DRIVEN TESTING)
     @Test(dataProvider = "login-alerts")
