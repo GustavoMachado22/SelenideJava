@@ -74,4 +74,22 @@ https://play.qaninja.io/cursos/selenide
 
 Fernando Papito é apaixonado por Automação. É um profissional com grande vivência de mercado, possui 17 anos de experiência em qualidade de software, tendo atuado em grandes empresas nacionais e multinacionais. Desenvolveu carreira atuando como QA e Dev. Trabalhou durante anos na área financeira, bancária, marketing, e-commerce e de BI. É especialista em automação de testes, devops, performance e segurança. Fundou a QA Ninja e QAX.
 
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/papitoio/">
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEAy2Z68TD12Q/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=AUNE6MTmk4UCCC5tp9r37vdi2FxwC0Oie9VSOTetHtI"/>
+        <br />
+        <sub>
+          <b>Fernando Papito</b>
+        </sub>
+       </a>
+       <br />
+    </td>
+  </tr>
+</table>
+
+
+
 - [Linkedin](https://www.linkedin.com/in/papitoio/) 
